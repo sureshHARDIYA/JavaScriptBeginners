@@ -1,6 +1,9 @@
 /**
  * JavaScript program to display "Fizz" or "Buzz" based on following conditions.
- *
+ * if number is divisible by 3 display "Fizz"
+ * if number is divisible by 5 display "Buzz"
+ * if number is divisible by both 3 and 5 display "FizzBuzz"
+ * else display the number
  */
 
  const fizzBuzzArray = Array.apply(0, Array(100)).map(function (x, y) {
