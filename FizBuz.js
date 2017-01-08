@@ -16,9 +16,9 @@
      if (isFizz) return 'fizz';
      if (isBuzz) return 'buzz';
      return(nb);
- });
+ }).join('\n');
 
- fizzBuzzArray.forEach(item => console.log(`${item} \n`))
+console.log(fizzBuzzArray)
 
 // Here is another quick solution using ES6 Syntax
 //  [...Array(100).keys()].map(i => {
